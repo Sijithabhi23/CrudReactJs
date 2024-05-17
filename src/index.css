@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: lavender;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+    cursor: pointer;
+}
+th,td{
+    padding: 15px;
+    border-style: none;
+    background-color: rgb(184, 237, 190);
+}
+table{
+    position: relative;
+    background-color: rgb(164, 223, 164);
+    border-spacing: 10px;
+    border-collapse: separate;
+    margin-top: 5%;
+    margin-left: 33%;
+    border: 2px solid black;
+}
+.btn-create{
+    margin-top: 5px;
+    margin-left:37%
+}
+
+
+.btn1:hover{
+    border: 3px solid greenyellow;
+}
+.btn2:hover{
+    border: 3px solid greenyellow;
+}
+.btn1{
+    color: white;
+    height: 2.8rem;
+    width: 4rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(82, 62, 199);
+}
+
+.btn2{
+    height: 2.8rem;
+    width: 4rem;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(244, 42, 42);
+}
+th{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+td{
+    font-size:larger;
+    font-family:cursive;
+}
+.Add label{
+    font-size: larger;
+    display:block;
+    width: 100px;
+    margin-top: 15px;
+}
+.Add{
+    margin-top: 10%;
+    padding-left: 38%;
+}
+.Add input{
+    margin-top: 12px;
+    padding: 5px;
+}
+.Add button{
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-size: medium;
+    color: white;
+    background-color: #218fb6;
+    padding: 10px;
+}
+
+h3{
+    color: rgb(99, 17, 95);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Edit label{
+    font-size: larger;
+    display:block;
+    width: 100px;
+    margin-top: 15px;
+}
+.Edit{
+    margin-top: 10%;
+    margin-left: 38%;
+}
+.Edit input{
+    margin-top: 12px;
+    padding: 5px;
+}
+.Edit button{
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-size: medium;
+    color: white;
+    background-color: #218fb6;
+    padding: 10px;
+}
+.create-icon
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-top: -3.5rem;
+    margin-left: 58%;
+}
+.create-icon:hover{
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+h1{
+ padding-top: 25px;   
 }
